@@ -1,0 +1,50 @@
+body  {
+    
+    margin: 0%;
+}
+.Header {
+  
+    height: 40px;
+    background-color: rgb(244, 247, 247);
+    display: flex;
+    justify-content: center;
+}
+
+.Header .logo {
+    padding: .70%;
+    width: auto;
+    height: 20px;
+}
+
+.conteiner1 {
+    background-color: rgb(215, 231, 237);
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 9%;
+    top: 20%;
+    width: 40%;
+    border-radius: 5%;
+    box-shadow: 7PX 20PX 30PX .5px gray;
+}
+
+.conteiner2{
+  
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: -14%;
+}
+
+.conteiner2 .img {
+
+    height: 400px;
+    position: absolute;
+    left: 28%;
+    top: 290px;
+    box-shadow: 7PX 20PX 30PX .5px gray;
+}
